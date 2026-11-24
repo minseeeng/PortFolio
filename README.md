@@ -9,7 +9,7 @@
 | 언어 · 환경 | C++ (Windows, Visual Studio), C# 기초, Python (테스트 스크립트) |
 | 서버 | WinSock 소켓 API, select 모델, 링버퍼, 직렬화 버퍼, TCP 프레이밍 |
 | 클라이언트 | Win32, Direct2D, 씬 구조, 스프라이트 툴 |
-| 알고리즘 | A*, JPS 길찾기 |
+| 알고리즘 | A\*, JPS 길찾기 |
 | AI | Claude Code + Obsidian 워크플로, 커스텀 스킬 제작 |
 
 ---
@@ -21,7 +21,7 @@
 | 1 | **실시간 대전 서버 (TCPFighter)** | select 기반 서버. 더미 클라이언트로 부하를 걸어 문제 5건을 찾고 수치로 확인 | 완료 | [game-server-portfolio](https://github.com/minseeeng/game-server-portfolio) |
 | 2 | **온라인 장기 (보드게임)** | 서버와 클라이언트를 혼자 설계. 닉네임 → 로비 → 방 → 장기 → 예외 처리 | **진행 중** | [board-game/](board-game/) |
 | 3 | **Direct2D 클라이언트 · 툴** | 렌더링 구조, 스프라이트 편집 툴, 오목, 슬라이딩 퍼즐 | 완료 | [game-portfolio](https://github.com/minseeeng/game-portfolio) |
-| 4 | **A* / JPS 길찾기** | 분기점만 평가하도록 가지치기하고 탐색 과정을 화면에 그려 검증 | 완료 | [game-portfolio](https://github.com/minseeeng/game-portfolio) |
+| 4 | **A\* / JPS 길찾기** | 분기점만 평가하도록 가지치기하고 탐색 과정을 화면에 그려 검증 | 완료 | [game-portfolio](https://github.com/minseeeng/game-portfolio) |
 | 5 | **AI 워크플로** | AI에게 무엇을 맡기고 무엇을 직접 하는지의 기준과 실제 사례 | 운영 중 | [ai-workflow/](ai-workflow/) |
 
 ---
@@ -71,6 +71,6 @@
 
 ## 교육 · 자격
 
-- C/C++ 게임 서버 프로그래밍 과정 (프로카데미, 2025.04 ~ 2025.09, 26주): 메모리 · 캐시 · 가상 메모리, 소켓 API, select 서버, 직렬화 버퍼, 메모리 풀, A* / JPS, 멀티스레드
+- C/C++ 게임 서버 프로그래밍 과정 (프로카데미, 2025.04 ~ 2025.09, 26주): 메모리 · 캐시 · 가상 메모리, 소켓 API, select 서버, 직렬화 버퍼, 메모리 풀, A\* / JPS, 멀티스레드
 - 정보처리기사
 - 캡스톤디자인 (4인): YOLO로 차량 파손을 찾는 렌트 앱, REST API · DB 테스트 담당
