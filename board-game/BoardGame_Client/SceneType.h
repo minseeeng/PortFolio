@@ -1,0 +1,9 @@
+﻿#pragma once
+enum SCENE_TYPE 
+{
+	SCENE_NONE = -1,
+	SCENE_NICKNAME, 
+	SCENE_LOBBY,
+	SCENE_GAME,
+	SCENE_MAX,
+};

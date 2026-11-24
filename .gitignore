@@ -1,0 +1,10 @@
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.obj
+*.pdb
+*.ipch
+# 리소스 이미지는 저작권 문제로 공개하지 않음
+board-game/BoardGame_Client/Resource/

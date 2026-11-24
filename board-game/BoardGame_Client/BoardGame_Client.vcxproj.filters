@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{bf4dc9bd-c8d9-4fbe-ba8d-c872f9f0d748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AppSub">
+      <UniqueIdentifier>{72e7dc5d-937a-4104-b2b1-e8769257e688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AppSub\Scene">
+      <UniqueIdentifier>{d0acb8ce-c997-4a6c-9219-47354d7b8233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Factory">
+      <UniqueIdentifier>{f81e29c2-beb8-4966-bea0-26980164e12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Type">
+      <UniqueIdentifier>{50d605d1-0eb8-4c5c-a4af-49736e748f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Network">
+      <UniqueIdentifier>{9dfa5b46-78b3-43b9-bb33-1228c83b3b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Sprite">
+      <UniqueIdentifier>{8a48ba0e-7c50-4b7f-a5b1-fd5d69fbb171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AppSub\App">
+      <UniqueIdentifier>{8dca4fb3-1884-4770-9aad-ddfdec0c3f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AppSub\Window">
+      <UniqueIdentifier>{8b10cb82-36ff-492e-8a45-5886c6ee8342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\Resource">
+      <UniqueIdentifier>{82de5df4-d53e-41a7-bdac-c04e9d444e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AppSub\UI">
+      <UniqueIdentifier>{f1f86d5a-c775-4d59-b505-b26e54656950}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoardGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardGameApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WicFactory.cpp">
+      <Filter>소스 파일\Core\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteFactory.cpp">
+      <Filter>소스 파일\Core\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\Core\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>소스 파일\AppSub\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일\AppSub\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCore.cpp">
+      <Filter>소스 파일\Core\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="NickNameScene.cpp">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader.cpp">
+      <Filter>소스 파일\Core\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetClient.cpp">
+      <Filter>소스 파일\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetCore.cpp">
+      <Filter>소스 파일\Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBox.cpp">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticImage.cpp">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticText.cpp">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoardGameApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WicFactory.h">
+      <Filter>소스 파일\Core\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteFactory.h">
+      <Filter>소스 파일\Core\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSize.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketType.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스 파일\Core\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>소스 파일\AppSub\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>소스 파일\AppSub\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCore.h">
+      <Filter>소스 파일\Core\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="NickNameScene.h">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader.h">
+      <Filter>소스 파일\Core\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>헤더 파일\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetClient.h">
+      <Filter>소스 파일\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetCore.h">
+      <Filter>소스 파일\Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\AppSub\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBox.h">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticImage.h">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticText.h">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>소스 파일\AppSub\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BoardGame_Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
